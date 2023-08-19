@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    ".",
+    "macros",
+]
+
+[package]
+name = "lab2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bones_utils_macros = { path = "./macros" }
